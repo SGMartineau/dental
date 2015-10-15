@@ -127,8 +127,23 @@ footer p {
     width: 90%;
 }
 
+.comeback {
+    display: none;
+}
+
+.comeback img {
+    height: 45px;
+    padding-right: 20px;
+}
+
 @media (max-width: 800px) {
     .goaway {
         display: none;
     }
+    .comeback {
+        display: inline;
+    }
+    .nav {
+        justify-content: space-between;
+        
 }
